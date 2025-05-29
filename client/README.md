@@ -1,1 +1,2 @@
-inventory management system for small
+# milk-inventory
+inventory management system for small cafes
