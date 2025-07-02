@@ -2,14 +2,19 @@
 import './App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import Inventory from './pages/Inventory';
-import Navbar from './components/Navbar';
+import Navbar from './Components/Navbar';
+import Login from './Components/Login';
 
 function App() {
   return (
-    
+    <>
+    <Navbar/>
+    <Routes> 
+      <Route path="/" element={<Login />} />
+    </Routes>
+    </>
+
+   
   );
 }
 
